@@ -1,3 +1,4 @@
+#Apenas a tela de visualização
 while True: 
     print("==================")
     print("Sitema de Cadastro")
@@ -7,4 +8,8 @@ while True:
     print("2 - Fazer login")
     print("3 - Sair")
 
-    opcao = input("Escolha uma opção: ")
+    opcao = int(input("Escolha uma opção: "))
+#Funcionalidades
+    #Se
+    if (opcao == 1) :
+        print("=====Tela de Cadastro===)")
