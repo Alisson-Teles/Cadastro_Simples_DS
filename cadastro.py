@@ -10,6 +10,9 @@ while True:
 
     opcao = int(input("Escolha uma opção: "))
 #Funcionalidades
-    #Se
+    #Se o usario digitar o valor 1, vai ser exebido 
+    # a ação abaixo:
     if (opcao == 1) :
-        print("=====Tela de Cadastro===)")
+        print("========================")
+        print("=====Tela de Cadastro===")
+        print("========================")
