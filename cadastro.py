@@ -12,7 +12,15 @@ while True:
 #Funcionalidades
     #Se o usario digitar o valor 1, vai ser exebido 
     # a ação abaixo:
-    if (opcao == 1) :
+    if (opcao == 1):
         print("========================")
         print("=====Tela de Cadastro===")
         print("========================")
+    elif (opcao == 2):
+        print("========================")
+        print("===Tela de Login===")
+        print("========================")
+    else:
+        print("Você está saindo do cadastro, até mais!")
+        break
+    
